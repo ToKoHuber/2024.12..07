@@ -1,0 +1,23 @@
+#parent {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  width: 200px;
+  background-color: blanchedalmond;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.card .card-body {
+  width: 80%;
+  height: 70%;
+  background-color: aqua;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
