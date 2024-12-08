@@ -17,7 +17,7 @@ for (let i = 0; i < 5; i++) {
   let card =
     `<div class="card">
 <h2>Card title` +
-    1 +
+    i +
     `</h2>
 <div class="card-body">
 <img src="` +
